@@ -33,9 +33,7 @@ Start webServer
 sudo systemctl restart apache2
 ```
 <p align="center">
-<img src="./screenshot03.png" width="256" title="Github Logo">
+<img src="./screenshot03.png" width="256">
+<img src="./screenshot02.png" width="256">
+<img src="./screenshot01.png" width="256">
 </p>
-
-![](./screenshot03.png){:height="50%" width="50%"}
-![Hello World Screenshot02](./screenshot02.jpeg "Hello World Screenshot02")
-![Hello World Screenshot03](./screenshot01.jpeg "Hello World Screenshot01")

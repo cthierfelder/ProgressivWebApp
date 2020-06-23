@@ -35,7 +35,7 @@ sudo systemctl restart apache2
 
 Open index.html on your phone
 ```
-http://ec2-52-14-245-101.us-east-2.compute.amazonaws.com/efs-mount-point/sampledir/myPWA/index.html
+http://awsDNS.com/efs-mount-point/sampledir/myPWA/index.html
 ```
 
 and add to home screen 

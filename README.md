@@ -2,9 +2,9 @@
 
 
 Setup webserver on AWS and login via ssh
-
+```
 ssh -i keyFile.pem ubuntu@awsDNS.com
-
+```
 sudo apt-get install tftp tftpd syslinux apache2
 
 sudo systemctl restart apache2

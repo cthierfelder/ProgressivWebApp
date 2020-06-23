@@ -45,7 +45,7 @@ and add to home screen
 <img src="./screenshot01.png" width="256">
 </p>
 
-Resize icon and create favicon.ico - install convert 
+Resize icon and create favicon.ico
 ```
 sudo apt install imagemagick
 convert iconJebus.jpeg -resize 128x128  iconJebus-128.png

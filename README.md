@@ -1,16 +1,23 @@
 # ProgressivWebApp
 
 
-Setup webserver on AWS and login via ssh
+Setup webserver on AWS and upload source files and login via ssh
 ```
 chmod 700 keyFile.pem
+scp -i keyFile.pem myPWA.zip ubuntu@awsDNS.com:
 ssh -i keyFile.pem ubuntu@awsDNS.com
 ```
 
 Install relevant packages
 ```
-sudo apt-get install tftp tftpd syslinux apache2
+sudo apt-get install tftp tftpd syslinux apache2 unzip
 ```
+
+Unpack source
+```
+unzip myPWA.zip
+```
+
 
 Create mount point and copy source
 ```
@@ -20,7 +27,7 @@ cd /var/www/html/efs-mount-point
 sudo mkdir sampledir
 sudo chown ubuntu sampledir
 sudo chmod -R o+r sampledir
-sudo mv ~/myPWA sampledir
+sudo mv ~/myPWA sampledir/
 ```
 
 Start webServer

@@ -1,6 +1,5 @@
 # ProgressivWebApp
 
-
 Setup webserver on AWS and upload source files and login via ssh
 ```
 chmod 700 keyFile.pem
@@ -17,7 +16,6 @@ Unpack source
 ```
 unzip myPWA.zip
 ```
-
 
 Create mount point and copy source
 ```
@@ -36,6 +34,6 @@ sudo systemctl restart apache2
 ```
 
 
-![Hello World Screenshot01](./screenshot03.png | width=100)
+![](./screenshot03.png | width=100)
 ![Hello World Screenshot02](./screenshot02.jpeg "Hello World Screenshot02")
 ![Hello World Screenshot03](./screenshot01.jpeg "Hello World Screenshot01")

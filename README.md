@@ -32,8 +32,7 @@ Start webServer
 ```
 sudo systemctl restart apache2
 ```
-
-[[screenshot03.png | width=100px | alt=Bridge]]
+<img src="./screenshot03.png" width="256" height="256" title="Github Logo">
 ![](./screenshot03.png){:height="50%" width="50%"}
 ![Hello World Screenshot02](./screenshot02.jpeg "Hello World Screenshot02")
 ![Hello World Screenshot03](./screenshot01.jpeg "Hello World Screenshot01")

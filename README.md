@@ -34,6 +34,7 @@ Start webServer
 ```
 sudo systemctl restart apache2
 ```
+Under security groups open HTTP port for inbound traffic
 
 Open index.html on your phone
 ```

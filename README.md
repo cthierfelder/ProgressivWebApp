@@ -9,7 +9,9 @@ ssh -i keyFile.pem ubuntu@awsDNS.com
 
 Install relevant packages
 ```
-sudo apt-get install tftp tftpd syslinux apache2 unzip
+sudo apt update
+sudo apt upgrade
+sudo apt install tftp tftpd syslinux apache2 unzip
 ```
 
 Unpack source
